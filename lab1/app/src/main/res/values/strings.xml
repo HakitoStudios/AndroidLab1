@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Android lab</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="note_name">Note name</string>
+    <string name="set_photo">Set photo</string>
+    <string name="description">Description</string>
+    <string name="set_date">Set date</string>
+    <string name="create">Create</string>
+    <string name="save">Save</string>
+
+    <string name="low">Low</string>
+    <string name="mid">Middle</string>
+    <string name="high">High</string>
+    <string name="search">Search</string>
+    <string name="note_level">Note level</string>
+    <string name="filter">Filter</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="ok">Ok</string>
+    <string name="colors">Colors</string>
+    <string name="calc">Calc</string>
+    <string name="notes">Notes</string>
+
+    <string-array name="note_context_items">
+        <item>@string/edit</item>
+        <item>@string/delete</item>
+    </string-array>
+</resources>

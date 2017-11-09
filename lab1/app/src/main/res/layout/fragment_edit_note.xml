@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent">
+
+    <LinearLayout
+        style="@style/WideContent.Vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/note_name_edit_text"
+            style="@style/WideContent"
+            android:hint="@string/note_name"
+            android:lines="1" />
+
+        <LinearLayout style="@style/WideContent">
+
+            <ImageView
+                android:id="@+id/note_photo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@android:drawable/ic_menu_camera" />
+
+            <Button
+                android:id="@+id/set_photo_btn"
+                style="@style/WrapContent"
+                android:layout_gravity="center"
+                android:text="@string/set_photo" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/description_edit_text"
+            style="@style/WideContent"
+            android:gravity="top"
+            android:hint="@string/description"
+            android:lines="3" />
+
+        <TextView
+            android:id="@+id/note_date_text"
+            style="@style/WrapContent" />
+
+        <Spinner
+            android:id="@+id/note_level_spinner"
+            style="@style/WrapContent" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

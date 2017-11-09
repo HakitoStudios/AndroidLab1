@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.ContentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent">
+
+    <TextView
+        style="@style/WrapContent"
+        android:layout_gravity="center"
+        android:text="Camera will be here" />
+</android.support.v7.widget.ContentFrameLayout>

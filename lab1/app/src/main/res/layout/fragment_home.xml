@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent.Vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/colors_btn"
+        style="@style/HomeButton"
+        android:text="@string/colors"
+        android:drawableRight="@drawable/ic_motorbike"
+        android:drawableEnd="@drawable/ic_motorbike" />
+
+    <Button
+        android:id="@+id/calc_btn"
+        style="@style/HomeButton"
+        android:drawableEnd="@android:drawable/ic_dialog_dialer"
+        android:drawableRight="@android:drawable/ic_dialog_dialer"
+        android:text="@string/calc" />
+
+    <Button
+        android:id="@+id/notes_btn"
+        style="@style/HomeButton"
+        android:drawableEnd="@android:drawable/ic_menu_today"
+        android:drawableRight="@android:drawable/ic_menu_today"
+        android:text="@string/notes" />
+</LinearLayout>
