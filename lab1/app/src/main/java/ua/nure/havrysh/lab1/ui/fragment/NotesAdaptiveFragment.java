@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.provider.FontsContract;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 
 import ua.nure.havrysh.lab1.R;
@@ -26,6 +28,13 @@ public class NotesAdaptiveFragment extends BaseFragment implements NotesRouter {
         fragmentManager = getChildFragmentManager();
         notesFragment = (NotesFragment) fragmentManager.findFragmentById(R.id.notes_fragment);
         editNoteFragment = (EditNoteFragment) fragmentManager.findFragmentById(R.id.edit_note_fragment);
+        setHasOptionsMenu(true);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.empty, menu);
     }
 
     @Override

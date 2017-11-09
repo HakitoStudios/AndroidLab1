@@ -26,6 +26,7 @@ import ua.nure.havrysh.lab1.db.Note;
 import ua.nure.havrysh.lab1.db.Note_Table;
 import ua.nure.havrysh.lab1.ui.NoteLevel;
 import ua.nure.havrysh.lab1.ui.fragment.base.BaseFragment;
+import ua.nure.havrysh.lab1.ui.router.NotesRouter;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -122,7 +123,11 @@ public class EditNoteFragment extends BaseFragment {
         note.setDescription(noteDescriptionEditText.getText().toString());
         FlowManager.getModelAdapter(Note.class)
                 .save(note);
-        getRouter().back();
+        if(getParentFragment()==null) {
+            getRouter().back();
+        }else{
+            ((NotesRouter)getParentFragment()).showNoteList();
+        }
     }
 
     @Override

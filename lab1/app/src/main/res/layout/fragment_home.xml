@@ -23,4 +23,11 @@
         android:drawableEnd="@android:drawable/ic_menu_today"
         android:drawableRight="@android:drawable/ic_menu_today"
         android:text="@string/notes" />
+
+    <Button
+        android:id="@+id/settings_btn"
+        style="@style/HomeButton"
+        android:drawableEnd="@android:drawable/ic_menu_preferences"
+        android:drawableRight="@android:drawable/ic_menu_preferences"
+        android:text="@string/prefs" />
 </LinearLayout>

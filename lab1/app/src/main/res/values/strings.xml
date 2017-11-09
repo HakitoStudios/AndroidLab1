@@ -20,9 +20,41 @@
     <string name="colors">Colors</string>
     <string name="calc">Calc</string>
     <string name="notes">Notes</string>
+    <string name="prefs">Preferences</string>
 
     <string-array name="note_context_items">
         <item>@string/edit</item>
         <item>@string/delete</item>
+    </string-array>
+
+
+    <string name="def_theme">Theme1</string>
+    <string name="def_text_size">Medium</string>
+    <string-array name="themes">
+        <item>Theme1</item>
+        <item>Theme2</item>
+    </string-array>
+
+    <string-array name="text_sizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string name="text_size_dialog_title">Font size</string>
+    <string name="text_size_summary">Font</string>
+    <string name="theme_dialog_title">Theme</string>
+    <string name="theme_summary">Appearance</string>
+    <string name="settings">Settings</string>
+    <string-array name="importances">
+        <item>Very important</item>
+        <item>Medium</item>
+        <item>Not important</item>
+    </string-array>
+
+    <string-array name="importances_for_toolbar">
+        <item>ALL</item>
+        <item>Very important</item>
+        <item>Medium</item>
+        <item>Not important</item>
     </string-array>
 </resources>
